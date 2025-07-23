@@ -1,0 +1,85 @@
+---
+output:
+  govdown::govdown_document:
+    font: "sans-serif" # (default) or "new-transport"
+    favicon: "govuk" # or "none" (default) or "govuk" see ?govdown_document
+    # logo: "images/logo.svg" # or false (default)
+    logo_url: "https://ukgovdatascience.github.io/govdown/"
+    logo_text: "GOV.UK"
+    page_title: "Explore education statistics - SEN Key Statistics"
+    title: "Explore education statistics"
+    phase: beta
+    feedback_url: "https://github.com/ukgovdatascience/govdown/issues"
+    theme:
+      bslib: true
+---
+
+``` {r include = FALSE}
+library(rmarkdown)
+library(bslib)
+library(govdown)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Headline statistics
+
+``` {r}
+bslib::layout_columns(
+  col_widths = c(6,6),
+bslib::value_box(
+"Number of pupils with SEN requriements", 
+  "1,766,924", 
+theme="blue"
+  ),
+bslib::value_box(
+"Percentage of pupils with SEN requirements", 
+  "19.5%", 
+theme="blue"
+  )
+)
+```
+
+Source: [Special educational needs in England, Academic year 2025](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2024-25)
+
+## Overall SEN totals
+
+``` {r}
+bslib::layout_columns(
+  col_widths = c(4, 4, 4),
+  bslib::value_box(
+    "Number of pupils on SEN support",
+    "1,284,284",
+    theme = "blue"
+  ),
+  bslib::value_box(
+    "Number of Education, health and care plans at January 2025",
+    "482,640",
+    theme = "blue"
+  ),
+  bslib::value_box(
+    "Total pupils with special education needs",
+    "1,766,924",
+    theme = "blue"
+  )
+)
+```
+
+Source: [Special educational needs in England, Academic year 2025](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2024-25)
+
+## Type of need
+
+Source: [Special educational needs in England, Academic year 2025](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2024-25)
+
+## Characteristics
+
+## Educational settings
+
+## Absence and exclusions
+
+## Outcomes and attainment
+
+## Post-16 learner participation
+
+## Destinations
+
+## Experience of the SEND system
