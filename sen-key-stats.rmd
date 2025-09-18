@@ -14,14 +14,23 @@ output:
       bslib: true
 ---
 
+<style>
+shadowless{
+    box-shadow:0px;
+}
+</style>
+
+
 ``` {r include = FALSE}
 library(rmarkdown)
 library(bslib)
 library(govdown)
 knitr::opts_chunk$set(echo = FALSE)
+vbox_gov_theme <- value_box_theme(bg = "#f3f2f1")
 ```
 
-## Headline statistics
+
+## Special educational needs statistics
 
 ``` {r}
 bslib::layout_columns(
@@ -29,12 +38,13 @@ bslib::layout_columns(
 bslib::value_box(
 "Number of pupils with SEN requriements", 
   "1,766,924", 
-theme="blue"
+  theme = vbox_gov_theme,
+  class = "shadowless"
   ),
 bslib::value_box(
 "Percentage of pupils with SEN requirements", 
   "19.5%", 
-theme="blue"
+  theme = vbox_gov_theme
   )
 )
 ```
@@ -49,17 +59,20 @@ bslib::layout_columns(
   bslib::value_box(
     "Number of pupils on SEN support",
     "1,284,284",
-    theme = "blue"
+    "Increase of 3.7%",
+    theme = vbox_gov_theme
   ),
   bslib::value_box(
     "Number of Education, health and care plans at January 2025",
     "482,640",
-    theme = "blue"
+    "Increase of 11.1%",
+  theme = vbox_gov_theme
   ),
   bslib::value_box(
     "Total pupils with special education needs",
     "1,766,924",
-    theme = "blue"
+    "Increase of 4.3%",
+  theme = vbox_gov_theme
   )
 )
 ```
