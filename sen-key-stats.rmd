@@ -79,20 +79,297 @@ bslib::layout_columns(
 
 Source: [Special educational needs in England, Academic year 2025](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2024-25)
 
+### SEN classifications
+
+#### SEN support
+
+SEN support means support that is additional to, or different from, the 
+support generally made for other children of the same age in schools. It is provided for pupils who are identified as having a learning difficulty or a disability that requires 
+extra or different help to that normally provided as part of the school’s usual 
+curriculum offer. A pupil on SEN Support will not have an Education, Health and Care 
+plan.
+
+#### Education, Health and Care (EHC) plan
+
+A local authority may issue an EHC plan for a 
+pupil who needs more support than is available through SEN Support. This will follow 
+a statutory assessment process whereby the local authority considers the pupil’s 
+special educational needs and any relevant health and social care needs; sets out 
+long term outcomes; and specifies provision which will deliver additional support to 
+meet those needs
+
 ## Type of need
+
+``` {r}
+bslib::layout_columns(
+  col_widths = c(6,6),
+  bslib::value_box(
+    "Autistic spectrum disorder",
+    "132,200 (33.0%)",
+    "Most common primary need for pupils on EHC plans",
+    theme = vbox_gov_theme
+  ),
+  bslib::value_box(
+    "Speech, language and communication needs",
+    "291,700 (26.6%)",
+    "Most common primary need for pupils on SEN support",
+    theme = vbox_gov_theme
+  )
+)
+```
 
 Source: [Special educational needs in England, Academic year 2025](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2024-25)
 
 ## Characteristics
 
+### Gender
+
+Special educational needs are more prevalent in boys than girls. 72.0% of pupils with an EHC plan in 2024 are boys, and 62.0% of pupils with on SEN support are boys. Both of 
+these rates have been slowly decreasing in recent years.
+
+### Free school meal eligibility
+
+Pupils with special educational needs are more likely to be eligible for free school meals. 
+42.2% of pupils with an EHC plan and 38.3% of pupils on SEN support were eligible for 
+free school meals in January 2024 compared to 21.4% of pupils without identified special 
+educational needs.
+
+### Ethnicity
+
+In January 2024, among the different ethnic groups, those recorded as 'Traveller of Irish 
+heritage', 'Black Caribbean’ and ‘Other Black background’ had the highest proportion of 
+pupils with an EHC plan, with percentages of 7.3%, 6.4% and 6.3% respectively.
+Conversely, those recorded as ‘Chinese’ ethnic group had the lowest percentage of 
+pupils with an EHC plan at 2.2%.
+
+### English as a first language
+
+84.2% of pupils who have SEN support and 84.2% of pupils with an EHC plan have a 
+first language known to be or believed to be English. This is a slight decrease from the 
+previous year and compares to 78.7% of all pupils in schools.
+
 ## Educational settings
+
+### Schools
+
+In January 2024, 81.3% of pupils with SEN were in state-funded mainstream school, 
+similar to the January 2023 figure of 81.6%. Although the number of pupils with an EHC 
+plan in special schools has increased between 2023 and 2024, the percentage of pupils 
+with an EHC plan attending state-funded special schools has dropped from 37.9% to 
+35.8%. These trends continue patterns seen since 2018. 
+
+The percentage of pupils with an EHC plan attending independent schools has increased 
+significantly in recent years. In January 2015, 5.3% of all pupils with statements attended 
+independent schools, and this has increased to 7.7% of all pupils with an EHC plan in 
+January 2024.
+
+### Early years
+
+In 2023, the number of children registered for the 15-hour entitlements was at the lowest 
+point in each series, down to 1,196,0006. Of these children, the percentage all of 
+children with SEN, that is both SEN support and EHCPs, increased from 7.0% in 2022 to 
+8.0% in 2023.
+
+### Looked after children and children in need with SEN – prevalence and 
+characteristics
+
+Prevalence: 58.1% of children who had been looked-after continuously for 12 months at 
+31 March 2023 for whom data were available had SEN , which consists of 30.8% with an 
+EHC plan and 27.3% with SEN support. This compares with 50.0% of children in need 
+with SEN. In the overall pupil population, 17.1% of pupils are identified with SEN. 
+The most common type of need for all looked after children at 31 March 2023 was 
+‘Social, Emotional and Mental Health’
 
 ## Absence and exclusions
 
+### Absence
+
+Absence
+12.3% of sessions were missed for pupils with EHC plans over 2022 to 2023 compared 
+to 10.2% for pupils on SEN support and 6.6% for pupils without SEN. 
+36.0% of pupils with EHC plans were persistent absentees8 over 2022 to 2023 compared 
+to 31.1% for pupils on SEN support and 18.4% for pupils without SEN. 
+2022 to 2023 was the second academic year which was entirely “post-pandemic” with no 
+disruptions caused by periods of lockdown since 2018 to 2019, with the first being 2021 
+to 2022. Due to the disruptions faced during previous years, caution should be take 
+comparing current data with historical data.
+
+### Exclusions
+
+The rate of suspensions in the Spring term of 2022 to 2023 among pupils with EHC plans 
+is 6.98, which is lower than for those on SEN support at 8.04. This compares to 2.18 for 
+pupils with no SEN.
+The rate of permanent exclusions in the same period among those pupils who have an 
+EHC plan is 0.07, which, like suspensions, is lower than for those on SEN support at 
+0.12. This compares to 0.02 for pupils with no SEN.
+
 ## Outcomes and attainment
+
+### Early Years Foundation Stage Profile (EYFSP)
+
+Pre COVID-19 pandemic, there was a steady increase over time in the percentage of 
+children with SEN achieving a good level of development7 . Following the pandemic, in 
+2022 to 2023, 19.8% of children with SEN were assessed at a good level of 
+development, which is 1.0 percentage points higher than the figure for 2021 to 2022 of 
+18.8%. Of these, 24.3% of children with SEN support had a good level of development, 
+up from 22.9% and 3.8% of children with an EHCP did, up from 3.6%. The percentage of 
+children with no identified SEN with a good level of development also increased to 74.0% 
+in 2022 to 2023 from 70.9% in 2021 to 2022, an increase of 3.1 percentage points.
+
+### Phonics screening check
+
+The percentage of year 1 pupils who met the expected standard in the phonics screening 
+check is similar to pre-pandemic levels. In 2022 to 2023, 42% of pupils with SEN met the 
+expected standard in the latest measurement period, compared with 38% in 2021 to 
+2022 and 43% in 2018 to 2019. Of those pupils with SEN, 48% of those on SEN support 
+and 20% of those with an EHC plan met the expected standard in 2022 to 2023. The 
+proportion of pupil with no identified SEN meeting the expected standard in the phonics
+
+screening check is also similar to pre-pandemic levels, 86% in 2022 to 2023 compared 
+to, 82% in 2021 to 2022 and 88% in 2018 to 2019. 
+
+### Key Stage 1
+
+The percentage of pupils who achieved the expected standard in KS1 teacher 
+assessments (TA) has dropped in both SEN and non-SEN categories following the 
+COVID-19 pandemic. Teacher assessments were not collected in 2019 to 2020 and 2020
+to 2021 due to the COVID pandemic.
+
+### Key Stage 2 
+
+24% of pupils on SEN support and 8% of pupils with EHCPs achieved the expected level 
+in reading, writing and mathematics at the end of KS2 in 2022 to 2023 compared to 70% 
+of those with no identified SEN – these figures have increased compared to 2021 to 2022
+where 21% of pupils on SEN support, 7% of pupils with an EHCP and 69% of pupils 
+with no identified SEN reached the expected standard but are reductions in comparison 
+to 2018 to 2019 when the figures were 25%, 9% and 74% respectively.
+Pupils with SEN have lower progress scores compared to those with no identified SEN 
+and the score is lowest in writing TA. 
+
+### Key Stage 4 
+
+The average attainment 8 score for pupils with SEN support in 2022 to 2023 was 33.3 
+compared to 50.0 for those with no identified SEN. For those with an EHC plan this was 
+14.0. For context, a higher attainment 8 score means greater attainment at the end of 
+KS4.
+In 2022 to 2023, 20.7% of pupils with SEN support achieved grades 5 or above in 
+English and mathematics GCSEs, compared to 51.0% of pupils with no identified SEN. 
+For those with an EHC plan this was 6.9%
+
+### Post-16 – attainment by age 19
+
+56.3% of pupils who were in state-funded mainstream schools and identified with SEN in 
+year 11 achieved Level 2 (equivalent to 5+ 9-4 at GCSE) by age 19 in 2022 to 2023, 
+which is 32.8 percentage points lower than pupils with no identified SEN (89.1%). 
 
 ## Post-16 learner participation
 
+### Participation for 16- and 17-year-olds
+Raising the participation age (RPA) legislation was introduced in 2013 to 2014 increasing 
+the age to which all young people in England are required to remain in education or 
+training. 87.2% of 16–17-year-olds flagged as having an EHC plan9 were in education 
+and training in March 2023 compared with 93.2% of those flagged with having no 
+identified SEN. These are similar to the previous year’s figures of 88.7% and 93.7% 
+respectively.
+
+### Participation in Further Education
+In the Academic Year 2022 to 2023, out of all adults aged 19+ in government-funded 
+further education and skills, learners recorded as having a Learning difficulty/disability or 
+health problem (LLDD) account for 18.5% of the cohort (325,470) an increase of 11.8% 
+from 291,010 in 2021 to 2022.
+
 ## Destinations
 
+### After Key Stage 4 
+
+Pupils with SEN at the end of KS4 were 5.7 percentage points less likely to have any 
+sustained destination than those with no identified SEN. 88.9% of pupils with SEN went 
+onto education, employment or apprenticeships compared to 94.6% of those with no 
+identified SEN (2021 to 2022 destinations). To be counted in a destination, young people 
+have to have sustained participation for a 6 month period in the destination year.
+
+### After Key Stage 5 
+
+Students with recorded special educational needs (SEN) in mainstream schools were 5.2 
+percentage points less likely to have an overall sustained destination than those students 
+without SEN (83.9% compared to 89.1%, respectively, for 2021 to 2022 destinations). 
+69.8% of those with self-declared Learning Difficulty, Disability or health problem (LLDD) 
+in state-funded mainstream colleges progressed to a sustained education, employment 
+or apprenticeship destination compared to 78.5% of those without LLDD (2021 to 2022
+destinations)
+
+### Progression to higher education (HE)
+
+In 2021 to 2022, 8.9% of pupils with an EHC plan at the end of KS4 progressed to HE by 
+age 19, compared to 24.2% of pupils with SEN support at the end of KS4 and 51.2% for 
+pupils with no identified SEN. The progression rate for pupils with an EHC plan, SEN 
+support and pupils with no identified SEN all increased from 8.7%, 22.5% and 48.6% 
+respectively in the previous year.
+
+### Employment status 
+
+In the 2022 to 23 financial year, 4.8% of adults with learning disabilities aged 18-64 who 
+were receiving support from social services were in paid employment.
+
 ## Experience of the SEND system
+
+### Total number of EHC plans maintained by local authorities
+
+There were 576,000 children and young people with Education, Health and Care (EHC) 
+plans as of January 202410. This is an increase of 11.4% from 517,000 as at January 
+2023. This follows similar increases in recent years. 
+
+### Number of new EHC plans issued by local authorities
+
+84,400 new EHC plans were issued during 2023, an increase of 26.6% when compared 
+against 2022. This is significantly higher than the increase of 11.0% from 2021 to 2022. 
+
+### Number of initial requests for assessment
+
+There were 138,200 initial requests made for assessment for an EHC plan during 2023, 
+up from 114,500 in 2022 and the highest number since data was first collected in 2016. 
+
+### Timeliness of issuing statements and EHC plans
+
+Of those plans where a decision to issue a new plan was within the 2023 calendar year 
+(excluding cases where exceptions apply), 50.3% were issued within the statutory 20 
+week time limit. This is an increase from 2022 when 49.2% of new plans were issued 
+within the time limit.
+This figure excludes cases where under the legislation exceptional circumstances mean 
+that the local authority need not comply with the 20 week time limit if it is impractical to do 
+so.
+
+### Appeals registered with the SEND tribunal
+
+Parents/carers and young people can register an appeal with the SEND tribunal if they 
+disagree with a decision their Local Authority (LA) has made regarding an EHC plan or 
+needs assessment.There were 15,615 appeals registered in 2023 (calendar year), which
+is equivalent to an estimated 2.5% of appealable decisions. This is an increase of 22% 
+compared to the previous year when there were 12,796 appeals registered equivalent to 
+an estimated 2.3% of appealable decisions
+
+### Disability
+
+The DWP Family Resources Survey shows that in 2022-23, 11% of children in the UK 
+had a disability. This proportion has increased from 6% in 2011-12. For disabled children, 
+the most common impairment type was social or behavioural impairments, with half 
+reporting this. This was followed by a learning impairment, at 32%; then a mental health 
+impairment, at 30% 
+The DfE Childcare and Early Years survey of Parents for 2021 suggests that 8% of 
+children have longstanding health conditions or disabilities. Children in lone parent 
+families are more likely to have a long-standing physical or mental impairment, illness or 
+disability (11%) or a special educational need (18%) compared with children in couple 
+families (7% and 11% respectively).
+The Children in Need (CIN) census is an annual survey from 2008-09 onwards that 
+includes the numbers of disabled CIN in England. The CIN census enables DfE to 
+support future policy development by achieving a better understanding of these 
+vulnerable children. Latest figures show that of those recorded as children in need as at 
+31 March 2022, 12.8% had a recorded disability. This figure has remained stable over 
+the last few years.
+
+### Housing status for adults with learning disabilities receiving 
+
+support from social services
+In the 2022 to 2023 financial year 80.5% of adults with learning disabilities aged 18-64 
+who were receiving support from social services lived in their own home or with their 
+families.
